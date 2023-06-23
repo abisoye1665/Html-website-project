@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-color:rgb(240, 232, 222);
+    font-family: Roboto, sans-serif;
+}
+
+.frame {
+    background-color: #ffffff;
+    margin: 28px 50px;
+    padding: 24px 55px;
+}
+
+a:active {
+    color: #3F88C5;
+}
+a:hover {
+    color: gold;
+}
+
+#top-logo {
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+.plogo {
+    margin: 0%;
+    padding-top: 0%;
+}
+
+h1 {
+    font: 400 25px Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+    line-height: 43px;
+    }
+
+.disclosure {
+    border: 1px solid #bbb;
+    border-radius: 13px;
+    background-color: hsl(195, 8%, 95%);
+    margin-bottom: 14px;
+    font: 200 15px;
+    /* font-weight: 200; */
+    }
+
+.disclosure p {
+    margin: 0.8em 0.7em;
+    color:#535455;
+    /* opacity: 95%; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:0%;
+    line-height: 26px;
+}
+.disclosure a {
+    color: #3F88C5;
+}
+
+.searchbar {
+    margin-top: 45px;   
+}
+
+.h4 {
+    font-weight: 100;
+    margin-bottom: 1.4em;
+    width: 55%;
+}
+
+.search-field {
+    width: 90%;
+    border: 1px solid #dddada;
+    height: 40px;
+}
+
+.search-submit {
+    width: 30%;
+    border: 1px solid #dddada;
+    height: 35px;
+    margin: 3px 0 6px;
+    background-color: #222;
+    color: #ffffff;
+}
+
+.middle-right ul a{ 
+    font-family: Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #222;
+    line-height: 20px;
+    margin-left:  0%;
+    width: 100%;
+    }
+
+#list-link{
+    width: 100%;
+    padding-left: 0;
+}
+
+
+#list-link li {
+    font-size:14px;
+    padding-left: 0px;
+    margin-left: 0%;
+
+}
+
+#list-link li:nth-of-type(1) {
+    background-color: rgb(247, 86, 86);
+    /* padding: ; */
+    /* font-size:medium; */
+    padding: 15px 3px;
+    margin: 0;
+
+}
+
+#list-link li:nth-of-type(2) {
+    background-color: rgb(233, 125, 75);
+    padding: 10px 4px;
+    /* font-size:medium; */
+    /* padding: 4px; */
+    margin: 0;
+    width: 95%;
+}
+
+#list-link li:nth-of-type(3) {
+    background-color: rgb(223, 188, 31);
+    height: 55px;
+    /* font-size:medium; */
+    padding: 4px;
+    margin: 0;
+    width: 90%;
+}
+#list-link li:nth-of-type(4) {
+    background-color: rgb(134,255, 0);
+    height: 55px;
+    /* font-size:medium; */
+    padding: 15px 4px;
+    margin: 0%;
+    width: 85%;
+}
+
+#list-link li:nth-of-type(5) {
+    background-color: rgb(55,155, 255);
+    height: 55px;
+    /* font-size:medium; */
+    padding: 15px 4px;
+    margin: 0%;
+    width: 80%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 2.3em;
+}
+.brand_wrap {
+    width: 30%;
+}
+.list_wrap {
+    width: 70%;
+}
+.list_wrap ul {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-left: 40px;
+}
+.list_wrap ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+.wrapper {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: hidden;
+    gap: 60px;
+}
+
+.wrapper2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para-1 p{
+    font-family: Tahoma, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #363636;
+    line-height: 25px;
+    /* width: %; */
+}
+.para-1 a {
+    color: #3F88C5;
+}
+
+.para-2 p{
+    /* font-family: Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-size: 25px; */
+    color: #363636;
+    font: normal 25px Merriweather, Lato, Calibri, serif;
+    line-height: 35px;
+    border-left: 5px solid #dddada;
+    padding-left: 20px;
+}
+.para-2 a{
+    color: #3F88C5;
+}
+
+.section_1{
+    width: 100%;
+}
+.section_2{
+    width: 45%;
+}
+.image {
+    width: 100%;
+}
+.image img {
+    width: 100%;
+}
+
+.welcome {
+    font-size: 22px;
+    font-weight:700;
+    /* same as above */
+    font: 700 22px;
+}
+
+.content {
+    border: 1px solid #bbb;
+    background-color: hsl(195, 8%, 95%);
+    width: 70%;
+    /* text-align: center; */
+}
+h5{
+    text-align: center;
+}
+
+.content a {
+    text-align: center;
+    font-family:Cambria, Cochin, Tahoma, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: #3F88C5;
+}
+
+.content-list a{
+    text-decoration: none;
+    color: #3F88C5;
+    font-family: Roboto, Tahoma, sans-serif;
+    line-height: 25px;
+    margin: 0 10px 0 10px;
+    /* margin-right: 4px; */
+    font-size: 14.5px;
+}
+
+.sub-list2 {
+    /* margin-left: 0px; */
+    padding-left: 25px;
+}
+
+.sub-list3 a{
+    padding-left: 25px;
+}
+
+.base-word {
+    font-family:normal 16px Roboto, Tahoma, sans-serif;
+    /* font-weight: normal; */
+    line-height: 25px;
+    margin-top: 5px;
+}
